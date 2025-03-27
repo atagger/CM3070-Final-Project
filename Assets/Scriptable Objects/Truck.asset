@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbdf61233525976479e791b95375d626, type: 3}
+  m_Name: Truck
+  m_EditorClassIdentifier: 
+  steeringCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.2
+      inSlope: 0.019981937
+      outSlope: 0.019981937
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.1162159
+    - serializedVersion: 3
+      time: 0.45
+      value: 0.235
+      inSlope: 0.34499198
+      outSlope: 0.34499198
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.19067675
+      outWeight: 0.21362664
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  powerCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.13
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.44773358
+      value: 0.92656016
+      inSlope: 0.49977303
+      outSlope: 0.49977303
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0.00804576
+      outSlope: 0.00804576
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.1702702
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  tractionCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.7
+      inSlope: -0.25
+      outSlope: -0.25
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0.45
+      inSlope: -0.25
+      outSlope: -0.25
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reversePowerCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.75
+      inSlope: 0.25
+      outSlope: 0.25
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0.25
+      outSlope: 0.25
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxSpeed: 81
+  maxReverseSpeed: 20
+  enginePower: 1600
+  decelFactor: 35
+  decelFactorOffRoad: 15
+  springStrength: 8750
+  damperStrength: 850
+  restLength: 0.4
+  springTravel: 0.2
+  tireGrip: 0.06
+  tireMass: 0.7
+  wheelRadius: 0.35
+  wheelSpinStrength: 100
+  lerpSteerTime: 30
+  ackTurnRadius: 11
+  stdSteerAngle: 25
+  lookAheadThreshold: 0.86
+  rayLength: 55
