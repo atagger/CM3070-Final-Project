@@ -135,7 +135,7 @@ MonoBehaviour:
   damperStrength: 850
   restLength: 0.4
   springTravel: 0.2
-  tireGrip: 0.05
+  tireGrip: 0.057
   tireMass: 0.7
   wheelRadius: 0.35
   wheelSpinStrength: 100
