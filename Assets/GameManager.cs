@@ -113,7 +113,7 @@ public class GameManager : MonoBehaviour
             for (int i = 0; i < opponentCarTuningClones.Count; i++)
             {
                 // reduce all opponents max speed by #
-                opponentCarTuningClones[i].maxSpeed -= 15f;
+                opponentCarTuningClones[i].maxSpeed -= 7f;
                 Debug.Log("easy mode is active, opponent max speed is set to: " + opponentCarTuningClones[i].maxSpeed);
             }
 
@@ -126,9 +126,8 @@ public class GameManager : MonoBehaviour
     {
             for (int i = 0; i < opponentCarTuningClones.Count; i++)
             {
-                opponentCarTuningClones[i].maxSpeed += 15f;
+                opponentCarTuningClones[i].maxSpeed += 7f;
                 Debug.Log("hard mode is active, opponent max speed is set to: " + opponentCarTuningClones[i].maxSpeed);
-                Debug.Log("this is firing again");
             }
 
             gameIsEasy = false;
@@ -168,12 +167,12 @@ public class GameManager : MonoBehaviour
             
             if (gameIsEasy)
             {
-                opponentCarTuningClones[i].enginePower += 70f;
+                opponentCarTuningClones[i].enginePower += 10f;
                 opponentCarTuningClones[i].maxSpeed += 1f;
             }
             else
             {
-                opponentCarTuningClones[i].enginePower += 10f;
+                opponentCarTuningClones[i].enginePower += 70f;
                 opponentCarTuningClones[i].maxSpeed += 2.5f;
             }
 

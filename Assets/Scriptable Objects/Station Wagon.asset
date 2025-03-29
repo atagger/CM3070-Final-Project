@@ -126,7 +126,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  maxSpeed: 80
+  maxSpeed: 71
   maxReverseSpeed: 20
   enginePower: 1600
   decelFactor: 35

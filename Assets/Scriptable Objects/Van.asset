@@ -126,12 +126,12 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  maxSpeed: 79
+  maxSpeed: 70
   maxReverseSpeed: 20
   enginePower: 1550
   decelFactor: 35
   decelFactorOffRoad: 15
-  springStrength: 9000
+  springStrength: 8500
   damperStrength: 850
   restLength: 0.4
   springTravel: 0.2

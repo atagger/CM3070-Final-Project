@@ -195,11 +195,16 @@ public class OpponentCar : Vehicle
         // check if we are stopped
         if (carRb.velocity.magnitude < 0.1f)
         {
-            //Debug.Log("we are stuck on an object");
-            if(isCarStuck == false)
+            // check ray forward, only reverse if front is blocked
+            if (Physics.Raycast(transform.position, transform.forward, out hit, 2.5f, layerMask))
             {
-                StartCoroutine(ReverseVehicle(3));
-                isCarStuck = true;
+                Debug.DrawRay(transform.position, transform.forward * 2.5f, Color.blue);
+                //Debug.Log("we are stuck on an object");
+                if (isCarStuck == false)
+                {
+                    StartCoroutine(ReverseVehicle(3));
+                    isCarStuck = true;
+                }
             }
         }
     }
