@@ -2,7 +2,7 @@
  Solulu - A Physics Based Driving Game
 
 ## About Solulu
-Solulu is a low-polygon, third-person view arcade racing game set in a solar punk world, where the player races a vehicle against three artificial intelligence (AI) opponents on a racetrack. The goal is to reach the finish line in first, second or third place to advance to the next course and earn car upgrade points as rewards. Upgrade points are spent between levels to increase the vehicle’s performance and handling with top speed, acceleration, tire grip and suspension. The game borrows from classic racing games like R.C. Pro-Am and Super Off-Road, but reimagines them using Unity’s physics engine and a novel approach to aesthetics, sound and level environments. 
+Solulu is a low-polygon, third-person view arcade racing game set in a solar punk world, where the player races a vehicle against three artificial intelligence (AI) opponents on a racetrack. The goal is to reach the finish line in first, second or third place to advance to the next course and earn car upgrade points as rewards. Upgrade points are spent between levels to increase the vehicle’s performance and handling with top speed, acceleration, tire grip and suspension. The game borrows from classic racing games like R.C. Pro-Am and Super Off-Road, but reimagines them using Unity’s physics engine and a novel approach to car customization, aesthetics and level environments.
 
 ## Requirements
 1. 2GB of space for the cloned repo. 9GB of space if you are planning on opening the project in Unity.
